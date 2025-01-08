@@ -65,7 +65,7 @@ if [ "x${SELECTED_FILE}" != "x" ] ; then
 
   # Header
   cat << __EOF >> ${RANDOM_SHARE_FORUM_FILE}
-This is a semi-automated message generated from [url="https://www.rescatux.org"]Rescatux live cd[/url].
+This is a semi-automated message generated from [url="https://www.supergrubdisk.org/rescatux"]Rescatux live cd[/url].
 __EOF
 
 

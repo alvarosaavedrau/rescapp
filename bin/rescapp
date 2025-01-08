@@ -957,7 +957,7 @@ class SelftestWindow(QtWidgets.QWidget):
         self.detailsGroup.setTitle("Details")
         self.detailsGroup.setLayout(self.verticalLayout)
 
-        self.bottomLabel = QtWidgets.QLabel("<p>For more troubleshooting tips please refer to <a href=\"https://www.rescatux.org\">https://www.rescatux.org</a> or ask in the chat.</p><p>Selftest log file will be found at: " + self.selftest_log_file + ". You will be able to share it thanks to the 'Share log' option." )
+        self.bottomLabel = QtWidgets.QLabel("<p>For more troubleshooting tips please refer to <a href=\"https://www.supergrubdisk.org/rescatux\">https://www.supergrubdisk.org/rescatux</a> or ask in the chat.</p><p>Selftest log file will be found at: " + self.selftest_log_file + ". You will be able to share it thanks to the 'Share log' option." )
         self.bottomLabel.setWordWrap(True)
         self.bottomLabel.setOpenExternalLinks(True)
         self.bottomLabel.setTextInteractionFlags(QtCore.Qt.TextBrowserInteraction)
